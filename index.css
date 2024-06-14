@@ -1,0 +1,64 @@
+body {
+    font-family: 'Inika', serif;
+    background-color: #C0C0C0; /* Cinza Prateado */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 300px;
+    height: auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+    color: #0044cc;
+}
+
+.bold-text {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    background-color: #0044cc;
+    color: #fff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #003399;
+}
+
+
+

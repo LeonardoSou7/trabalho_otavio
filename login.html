@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortes Engenharia - Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <header>
+                <img src="logo.png" alt="Fortes Engenharia Logo" class="logo">
+            </header>
+            <a href="index.html"><button class="btn">Voltar</button></a>
+        </div>
+        <div class="content">
+            <form class="form" action="dashboard.html" method="post">
+                <h2>Login</h2>
+                <label for="login">Login:</label>
+                <input type="text" id="login" name="login" required>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+
+                <a href="recuperar.html" class="recuperar-senha">Recuperar Senha</a>
+
+                <div class="buttons">
+                    <a href="perfil.html"><button type="submit" class="btn">Entrar</button></a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>

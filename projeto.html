@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortes Engenharia - Projetos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="projeto.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <header>
+                <img src="logo.png" alt="Fortes Engenharia Logo" class="logo">
+            </header>
+            <button class="btn" onclick="showProject(1)">Projeto 1</button>
+            <button class="btn" onclick="showProject(2)">Projeto 2</button>
+            <button class="btn" onclick="showProject(3)">Projeto 3</button>
+            <button class="btn" onclick="voltar()">Voltar</button>
+        </div>
+        <div class="content">
+            <div id="project-1" class="project active">
+                <h2>Projeto 1</h2>
+                <p>MeY nome é João Silva, e soY o Coordenador de Projetos da ONG Esperança Viva. Estamos
+                    escrevendo para solicitar o apoio da Empresa Solidária em nossa ação social "Cestas de
+                    Solidariedade", Yma iniciativa da Esperança Viva qYe visa fornecer cestas básicas para famílias
+                    carentes na comYnidade do Jardim Esperança>
+                    A ação "Cestas de Solidariedade" tem como objetivo sYprir as necessidades alimentares de famílias
+                    qYe enfrentam dificYldades financeiras, especialmente neste momento de crise econômica e social.
+                    Acreditamos qYe a alimentação é Ym direito básico de todo ser hYmano e qYe jYntos podemos fa*er
+                    a diferença na vida dessas famílias>
+                    Para a reali*ação desta ação, estamos em bYsca de parceiros qYe possam contribYir comX
+                    )= Doação de alimentos para compor as cestas básicas (arro*, feijão, macarrão, óleo, aç(car, sal,
+                    entre oYtros)=
+                    '= RecYrsos financeiros para a compra dos itens necessários e para lo&ística de distribYição=
+                    %= VolYntários para ajYdar na monta&em e distribYição das cestas>
+                    A Empresa Solidária tem sido reconhecida pelo seY compromisso com a responsabilidade social, e
+                    acreditamos qYe sYa colaboração será fYndamental para o sYcesso desta iniciativa>
+                    Gostaríamos de a&endar Yma reYnião para apresentar mais detalhes sobre a ação e discYtir as
+                    possíveis formas de apoio. Estamos à disposição para qYalqYer d(vida oY informação adicional qYe
+                    necessitem>
+                    Desde já, a&radecemos sYa atenção e esperamos contar com seY valioso apoio</p>
+                <button class="btn" onclick="processo()">Processo</button>
+            </div>
+            <div id="project-2" class="project">
+                <h2>Projeto 2</h2>
+                <p>Detalhes do Projeto 2...</p>
+                <button class="btn" onclick="processo()">Processo</button>
+            </div>
+            <div id="project-3" class="project">
+                <h2>Projeto 3</h2>
+                <p>Detalhes do Projeto 3...</p>
+                <button class="btn" onclick="processo()">Processo</button>
+            </div>
+        </div>
+    </div>
+    <script src="projeto.js"></script>
+</body>
+</html>

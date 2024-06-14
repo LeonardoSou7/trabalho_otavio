@@ -1,0 +1,98 @@
+body {
+    font-family: 'Inika', serif;
+    background-color: #C0C0C0; /* Cinza Prateado */
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    height: 80%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+    background-color: #dcdcdc;
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+}
+
+.btn {
+    background-color: #0044cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #003399;
+}
+
+.voltar {
+    margin-top: auto;
+}
+
+.content {
+    padding: 20px;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2 {
+    color: #0044cc;
+}
+
+.form label {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.form input[type="text"],
+.form textarea,
+.form input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form textarea {
+    resize: vertical;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}

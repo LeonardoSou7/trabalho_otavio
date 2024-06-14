@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fortes Engenharia - Projetos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inika:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="status.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <header>
+                <img src="logo.png" alt="Fortes Engenharia Logo" class="logo">
+            </header>
+            <button class="btn" onclick="showProject(1)">Projeto 1</button>
+            <button class="btn" onclick="showProject(2)">Projeto 2</button>
+            <button class="btn" onclick="showProject(3)">Projeto 3</button>
+            <button class="btn voltar" onclick="voltar()">Voltar</button>
+        </div>
+        <div class="content">
+            <div id="project-1" class="project active">
+                <h2>Projeto 1</h2>
+                <button class="btn">Aprovado</button>
+                <button class="btn">Contato</button>
+                <p>Prazo: 19/11/2024</p>
+                <p>O projeto apresenta objetivos claros e bem definidos, focando na melhoria da qualidade educacional para crianças e jovens em situação de vulnerabilidade...</p>
+                <div class="images">
+                    <img src="img1.jpg" alt="Imagem Projeto 1">
+                    <img src="img2.jpg" alt="Imagem Projeto 1">
+                </div>
+            </div>
+            <div id="project-2" class="project">
+                <h2>Projeto 2</h2>
+                <button class="btn">Rejeitado</button>
+                <button class="btn">Contato</button>
+                <p>Prazo: 13/03/2024</p>
+                <p>Detalhes do Projeto 2...</p>
+                <div class="images">
+                    <img src="img1.jpg" alt="Imagem Projeto 2">
+                    <img src="img2.jpg" alt="Imagem Projeto 2">
+                </div>
+            </div>
+            <div id="project-3" class="project">
+                <h2>Projeto 3</h2>
+                <button class="btn">Em Analize</button>
+                <button class="btn">Contato</button>
+                <p>Prazo: 27/08/2024</p>
+                <p>Detalhes do Projeto 3...</p>
+                <div class="images">
+                    <img src="img1.jpg" alt="Imagem Projeto 3">
+                    <img src="img2.jpg" alt="Imagem Projeto 3">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="status.js"></script>
+</body>
+</html>
