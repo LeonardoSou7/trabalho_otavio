@@ -46,7 +46,7 @@ h1 {
     justify-content: space-around;
 }
 
-.btn {
+a .btn {
     background-color: #0044cc;
     color: #fff;
     border: none;
@@ -56,7 +56,7 @@ h1 {
     transition: background-color 0.3s ease;
 }
 
-.btn:hover {
+a .btn:hover {
     background-color: #003399;
 }
 

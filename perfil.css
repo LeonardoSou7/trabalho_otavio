@@ -51,7 +51,7 @@ aside {
     margin-bottom: 20px;
 }
 
-.btn {
+ .btn {
     background-color: #0044cc;
     color: #fff;
     border: none;
@@ -63,11 +63,11 @@ aside {
     text-align: center;
 }
 
-.btn-bottom {
+ .btn-bottom {
     margin-bottom: 0;
 }
 
-.btn:hover {
+ .btn:hover {
     background-color: #003399;
 }
 

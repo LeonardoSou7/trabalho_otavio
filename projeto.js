@@ -10,11 +10,6 @@ function showProject(projectNumber) {
     selectedProject.classList.add('active');
 }
 
-function voltar() {
-    // Ação para o botão Voltar
-    alert('Função de voltar ainda não implementada.');
-}
-
 function processo() {
     // Ação para o botão Processo
     alert('Função de processo ainda não implementada.');

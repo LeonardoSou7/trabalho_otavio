@@ -36,7 +36,7 @@ header {
     height: auto;
 }
 
-.btn {
+ .btn {
     background-color: #0044cc;
     color: #fff;
     border: none;
@@ -93,7 +93,7 @@ header {
     resize: vertical;
 }
 
-.buttons {
+ .buttons {
     display: flex;
     justify-content: space-between;
     margin-top: 20px;

@@ -53,23 +53,23 @@ input {
     border-radius: 5px;
 }
 
-.buttons {
+a .buttons {
     display: flex;
     justify-content: space-between;
 }
 
-.btn {
+a .btn {
     background-color: #0044cc;
     color: #fff;
     border: none;
-    padding: 15px 25px;
-    border-radius: 15px;
+    padding: 10px 20px;
+    border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
     width: 45%;
     text-align: center;
 }
 
-.btn:hover {
+a .btn:hover {
     background-color: #003399;
 }
