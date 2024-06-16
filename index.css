@@ -1,14 +1,39 @@
 body {
     font-family: 'Inika', serif;
     background-color: #C0C0C0; /* Cinza Prateado */
-    display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     margin: 0;
+    background-image: url('empresa.jpg'); /* imagem de fundo */
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
 
+/* menu */
+.nav {
+    background-color: #0037a5;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.menu:hover {
+    background-color: #003091;
+} 
+
+div.esp {
+    padding: 0px 0px 50px;
+}  /* fim do menu */
+
+
 .container {
+    display: block;
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;

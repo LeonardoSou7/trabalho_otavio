@@ -25,14 +25,16 @@
                 <textarea id="project-description" name="project-description" rows="4" required></textarea>
 
                 <label for="project-files">Carregar Arquivos:</label>
-                <input type="file" id="project-files" name="project-files" multiple>
+                <input type="file" id="project-files" name="project-files" multiple hidden>
+                <label for="project-files" class="custom-file-upload">Escolher arquivos</label>
+                <span id="file-chosen">Nenhum arquivo escolhido</span>
 
                 <div class="buttons">
-                    <a href="perfil.html"><button type="button" class="btn">Voltar</button></a>
                     <button type="submit" class="btn">Enviar</button>
                 </div>
             </form>
         </div>
     </div>
 </body>
+
 </html>

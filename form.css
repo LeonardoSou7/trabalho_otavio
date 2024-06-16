@@ -4,10 +4,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    background-image: url('./Engenheiro\ civil\ _\ Foto\ Premium.jpg');
+    margin: 10px;
+    background-image: url('predios5.jpg'); /* imagem de fundo */
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -17,16 +15,16 @@ body {
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 400px;
+    width: 500px;
     text-align: center;
 }
 
 header {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .logo {
-    width: 150px;
+    width: 210px;
     height: auto;
 }
 
