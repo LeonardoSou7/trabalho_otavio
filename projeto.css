@@ -1,12 +1,14 @@
 body {
     font-family: 'Inika', serif;
-    background-color: #C0C0C0; /* Cinza Prateado */
+    background-color: #C0C0C0;
+    /* Cinza Prateado */
     margin: 0;
     display: flex;
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-image: url('projeto.jpg'); /* imagem de fundo */
+    background-image: url('projeto.jpg');
+    /* imagem de fundo */
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -39,7 +41,7 @@ header {
     height: auto;
 }
 
- .btn {
+.btn {
     background-color: #0044cc;
     color: #fff;
     border: none;
@@ -52,7 +54,7 @@ header {
     text-align: center;
 }
 
- .btn:hover {
+.btn:hover {
     background-color: #003399;
 }
 

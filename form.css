@@ -1,11 +1,13 @@
 body {
     font-family: 'Inika', serif;
-    background-color: #c0c0c0; /* Cinza Prateado */
+    background-color: #c0c0c0;
+    /* Cinza Prateado */
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px;
-    background-image: url('predios5.jpg'); /* imagem de fundo */
+    background-image: url('predios5.jpg');
+    /* imagem de fundo */
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -70,4 +72,18 @@ a .btn {
 
 a .btn:hover {
     background-color: #003399;
+}
+
+
+html ::-webkit-scrollbar {
+    width: 13px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background: #4673cc;
+}
+
+html ::-webkit-scrollbar-track {
+    background: #fff;
 }

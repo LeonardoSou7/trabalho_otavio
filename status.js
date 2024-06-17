@@ -1,7 +1,7 @@
 function showProject(projectNumber) {
     // Esconde todos os projetos
     var projects = document.querySelectorAll('.project');
-    projects.forEach(function(project) {
+    projects.forEach(function (project) {
         project.classList.remove('active');
     });
 

@@ -1,10 +1,12 @@
 body {
     font-family: 'Inika', serif;
-    background-color: #C0C0C0; /* Cinza Prateado */
+    background-color: #C0C0C0;
+    /* Cinza Prateado */
     justify-content: center;
     align-items: center;
     margin: 0;
-    background-image: url('empresa.jpg'); /* imagem de fundo */
+    background-image: url('empresa.jpg');
+    /* imagem de fundo */
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -25,11 +27,13 @@ body {
 
 .menu:hover {
     background-color: #003091;
-} 
+}
 
 div.esp {
     padding: 0px 0px 50px;
-}  /* fim do menu */
+}
+
+/* fim do menu */
 
 
 .container {
@@ -84,6 +88,3 @@ a .btn {
 a .btn:hover {
     background-color: #003399;
 }
-
-
-

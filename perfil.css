@@ -1,12 +1,14 @@
 body {
     font-family: 'Inika', serif;
-    background-color: #C0C0C0; /* Cinza Prateado */
+    background-color: #C0C0C0;
+    /* Cinza Prateado */
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 35px;
     margin: 0;
-    background-image: url('acessorios.jpg'); /* imagem de fundo */
+    background-image: url('acessorios.jpg');
+    /* imagem de fundo */
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -54,7 +56,7 @@ aside {
     margin-bottom: 20px;
 }
 
- .btn {
+.btn {
     background-color: #0044cc;
     color: #fff;
     border: none;
@@ -66,11 +68,11 @@ aside {
     text-align: center;
 }
 
- .btn-bottom {
+.btn-bottom {
     margin-bottom: 0;
 }
 
- .btn:hover {
+.btn:hover {
     background-color: #003399;
 }
 
@@ -91,4 +93,18 @@ main {
     height: auto;
     border-radius: 10px;
     margin-top: 20px;
+}
+
+
+html ::-webkit-scrollbar {
+    width: 13px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 2px;
+    background: #4673cc;
+}
+
+html ::-webkit-scrollbar-track {
+    background: #fff;
 }
